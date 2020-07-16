@@ -1,0 +1,156 @@
+.cf:before, .cf:after{
+	content: " ";
+	display: table;
+}
+
+.cf:after{
+	clear: both;
+}
+
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151328;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+	font-size: 21px;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+h3{
+	font-weight: 900;
+	font-size: 1.7rem;
+	margin-bottom: 1em;
+}
+
+ol{
+	list-style: decimal;
+	margin-left: 40px;
+}
+
+li > a{
+	float: right;
+	margin-right:20px;
+	text-decoration: none;
+	color: white;
+}
+
+li > p{
+	float: right;
+	margin-right: 20px;
+}
+
+li > a:visited{
+	color: white;
+}
+
+li > a:active{
+	color: #404040;
+}
+
+li > a:hover{
+	color: #808080;
+}
+
+.site-header{
+	margin-left: 15%;
+	margin-top: 40px;
+	margin-right: 50%;
+	margin-bottom: 100px;
+	padding-bottom: 5px;
+	font-size: 3rem;
+	font-weight: bold;
+	border-bottom: 3px solid grey;
+}
+
+.site-header > span{
+	border-bottom: 3px solid black;
+}
+
+.indv-rank{
+	margin-bottom: 50px;
+}
+
+.bios{
+	
+}
+
+.ratboy{
+	margin-left:15%;
+}
+
+.jeej{
+	margin-left:60%;
+}
+
+.ratboy > img{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.jeej > img{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.ratboy > h2{
+	float: left;
+	font-size: 3rem;
+	font-weight: 900;
+	padding: 50px 0 0 15px;
+	color: #FF499B;
+}
+
+.jeej > h2{
+	float: left;
+	font-size: 3rem;
+	font-weight: 900;
+	padding: 50px 0 0 15px;
+	color: #A7E5E5;
+}
+
+.taylor-block{
+	float: left;
+	margin-left: 15%;
+	width: 25%;
+	padding-bottom: 20px;
+	border-radius: 25px;
+	border-bottom: 5px solid #FF499B;
+	border-left: 5px solid #FF499B;
+}
+
+.jj-block{
+	float: left;
+	margin-right: 15%;
+	width: 25%;
+	padding-bottom: 20px;
+	border-radius: 25px;
+	border-bottom: 5px solid #A7E5E5;
+	border-left: 5px solid #A7E5E5;
+}
+
+.rank-header{
+	padding: 10px 0 0 10px;
+}
+
+.taylor > h3{
+	color: #F22987;
+}
+
+.jj > h3{
+	color: #9EFFFF;
+}
+
+.vs-img{
+	float: left;
+	margin: 0 5% 0 5%;
+	width: 10%;
+}
